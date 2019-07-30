@@ -69,7 +69,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
                with font-awesome or any other icon font library -->
             <li class="nav-item">
                 <router-link to="/dashboard" class="nav-link">
-                    <i class="nav-icon fas fa-tachometer-alt"></i>
+                    <i class="nav-icon fas fa-tachometer-alt orange"></i>
                         <p>
                         Dashboard
                         </p>
@@ -86,25 +86,25 @@ scratch. This page gets rid of all links and provides the needed markup only.
                 <ul class="nav nav-treeview">
                     <li class="nav-item">
                         <router-link to="/desa" class="nav-link">
-                            <i class="fas fa-building nav-icon purple"></i>
+                            <i class="fas fa-map-pin nav-icon purple"></i>
                             <p>Desa</p>
                         </router-link>
                     </li>
                     <li class="nav-item">
                         <router-link to="/kecamatan" class="nav-link">
-                            <i class="fas fa-users nav-icon teal"></i>
+                            <i class="fas fa-map-marker-alt nav-icon teal"></i>
                             <p>Kecamatan</p>
                         </router-link>
                     </li>
                     <li class="nav-item">
                         <router-link to="/kabupaten" class="nav-link">
-                            <i class="fas fa-users nav-icon teal"></i>
+                            <i class="fas fa-map-marker nav-icon green"></i>
                             <p>Kabupaten</p>
                         </router-link>
                     </li>
                     <li class="nav-item">
                         <router-link to="/provinsi" class="nav-link">
-                            <i class="fas fa-users nav-icon teal"></i>
+                            <i class="fas fa-map-marked-alt nav-icon blue"></i>
                             <p>Provinsi</p>
                         </router-link>
                     </li>
